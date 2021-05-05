@@ -108,6 +108,11 @@ export interface ImageHit {
      * Profile picture URL (250 x 250 px).
      */
     userImageURL: string;
+
+    /**
+     * Full size picture URL
+     */
+    largeImageURL: string;
 }
 
 export interface VideoSizeType {
